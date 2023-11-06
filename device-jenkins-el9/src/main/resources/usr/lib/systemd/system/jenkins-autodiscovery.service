@@ -1,0 +1,18 @@
+# systemd service for managing all jenkins autoconfiguration.
+
+[Unit]
+Description=Jenkins Configuration Autodiscovery
+Requires=jenkins.service
+PartOf=jenkins.service
+ReloadPropagatedFrom=jenkins.service
+Before=jenkins.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/libexec/device-autodiscovery/jenkins
+ExecReload=/bin/bash /usr/libexec/device-autodiscovery/jenkins
+RemainAfterExit=on
+
+[Install]
+WantedBy=multi-user.target
+

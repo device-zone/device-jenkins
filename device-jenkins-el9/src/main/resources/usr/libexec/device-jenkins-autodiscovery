@@ -1,0 +1,46 @@
+#!/bin/bash
+
+#
+# Jenkins Autodiscovery
+# =====================
+#
+# This script autogenerates the configuration for a jenkins server.
+
+set -e
+umask 0022
+
+
+
+#
+# Handle the cleanup
+# ------------------
+cleanup_before_exit () {
+  if [ -d "${tmpdir}" ]; then
+    rm -rf "${tmpdir}"
+  fi
+}
+# be in a temporay workspace (this works on linux and macosx)
+tmpdir=`mktemp -d 2>/dev/null || mktemp -d -t 'tmpdir'`
+# trap catches the exit signal and runs the specified function
+trap cleanup_before_exit EXIT
+# be in our directory
+cd "${tmpdir}"
+
+
+
+logger -t "${0}" "running autodiscovery for jenkins..."
+
+rm -f "${line}/warning"
+
+find "$0.d" -type f -executable | sort | \
+while read x; do
+  "$x" "${instance}" "${line}" < /dev/null || touch error;
+done
+
+if test ! -f "error"; then
+  logger -t "${0}" "completed autodiscovery for jenkins."
+else
+  logger -t "${0}" "failed autodiscovery for jenkins."
+fi
+
+

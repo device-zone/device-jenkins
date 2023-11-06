@@ -1,0 +1,1 @@
+/usr/bin/getent passwd ${device.httpd.user} > /dev/null && /usr/sbin/usermod -a -G ${device.jenkins.group} ${device.httpd.user}
