@@ -6,11 +6,6 @@
 
 logger -t "${0}" "Notice: Creating jenkins /etc/sysconfig/jenkins..."
 
-if test ! -f "/etc/device/services/app/jenkins/port.txt"; then
-  exit 0;
-fi
-port=$(head -n 1 "/etc/device/services/app/jenkins/port.txt")
-
 if test ! -f "/etc/device/services/app/jenkins/path.txt"; then
   exit 0;
 fi
