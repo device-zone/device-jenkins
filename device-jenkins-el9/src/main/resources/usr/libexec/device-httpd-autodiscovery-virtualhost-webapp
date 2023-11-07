@@ -33,7 +33,7 @@ if [ $# -eq 3 ]; then
   # read in the server-name if present
   servername=""
   if test -f "${line}/virtualhost.d/server-name.txt"; then
-    servername="$(head -n 1 ${line}/virtualhost.d/sever-name.txt)"
+    servername="$(head -n 1 ${line}/virtualhost.d/server-name.txt)"
   fi
   # empty servername becomes hostname
   if test -z "${servername}";then
@@ -116,7 +116,7 @@ EOF
 
     SSLUserName SSL_CLIENT_CERT_RFC4523_CEA
 
-    require device-${authname}
+    require device-tls-${authname}
 
     ErrorDocument 403 "<html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>Your gadget '%{SSL_CLIENT_S_DN_CN}' currently does not have permission to access this URL.${access_text}</p></body></html>"
 
