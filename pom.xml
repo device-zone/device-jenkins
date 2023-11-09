@@ -4,6 +4,7 @@
   <properties>
     <release.instance>device</release.instance>
     <release.suffix>device.zone</release.suffix>
+    <jenkins.version>2.401.3</jenkins.version>
   </properties>
 
   <artifactId>device-jenkins</artifactId>
@@ -27,6 +28,7 @@
 
   <modules>
     <module>device-jenkins-el9</module>
+    <module>device-jenkins-plugins-el9</module>
   </modules>
 
   <build>
@@ -55,6 +57,13 @@
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>io.jenkins.tools.bom</groupId>
+        <artifactId>bom-2.426.x</artifactId>
+        <version>2555.v3190a_8a_c60c6</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
       <dependency>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>

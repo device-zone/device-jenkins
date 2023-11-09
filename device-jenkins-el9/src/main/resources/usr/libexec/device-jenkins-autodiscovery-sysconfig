@@ -23,6 +23,8 @@ JENKINS_PORT=-1
 JENKINS_PREFIX=${path}
 JENKINS_UNIX_DOMAIN_PATH=/var/run/jenkins/jenkins.socket
 
+CASC_JENKINS_CONFIG=/var/lib/jenkins/device
+
 EOF
 
 

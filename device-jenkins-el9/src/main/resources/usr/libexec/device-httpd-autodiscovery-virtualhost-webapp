@@ -121,7 +121,11 @@ EOF
     ErrorDocument 403 "<html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>Your gadget '%{SSL_CLIENT_S_DN_CN}' currently does not have permission to access this URL.${access_text}</p></body></html>"
 
     AuthBearerProxy %{JWT_TOKEN}
+    AuthtJwtClaim set aud jenkins
+    AuthtJwtClaim set iss apache
     AuthtJwtClaim set sub %{REMOTE_USER}
+    AuthtJwtClaim set groups apache
+    AuthtJwtClaim set alg none
 #    AuthtJwtClaim set alg HS256
 #    AuthtJwtSign hs256 file "/run/httpd/instance-device-${instance}/jwt-secret-jenkins-${application}.txt"
 

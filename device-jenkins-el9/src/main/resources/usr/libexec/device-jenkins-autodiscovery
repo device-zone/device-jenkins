@@ -32,6 +32,9 @@ logger -t "${0}" "running autodiscovery for jenkins..."
 
 rm -f "${line}/warning"
 
+rm -rf /var/lib/jenkins/device
+install -o root -g jenkins -m 0750 -d /var/lib/jenkins/device
+
 find "$0.d" -type f -executable | sort | \
 while read x; do
   "$x" "${instance}" "${line}" < /dev/null || touch error;
