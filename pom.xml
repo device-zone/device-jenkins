@@ -21,9 +21,9 @@
   </organization>
 
   <scm>
-    <connection>scm:svn:https://github.com/device-zone/device-jenkins/trunk</connection>
-    <developerConnection>scm:svn:https://github.com/device-zone/device-jenkins/trunk</developerConnection>
-    <url>https://github.com/device-zone/device-jenkins/trunk</url>
+    <connection>scm:git:https://github.com/device-zone/device-jenkins.git</connection>
+    <developerConnection>scm:git:https://github.com/device-zone/device-jenkins.git</developerConnection>
+    <url>https://github.com/device-zone/device-jenkins</url>
   </scm>
 
   <modules>
