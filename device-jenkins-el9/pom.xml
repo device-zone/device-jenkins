@@ -235,6 +235,7 @@
             <require>java-17-openjdk</require>
             <require>jenkins</require>
             <require>device</require>
+            <require>httpd</require>
           </requires>
 	</configuration>
       </plugin>
