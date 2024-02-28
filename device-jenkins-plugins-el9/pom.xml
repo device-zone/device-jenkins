@@ -24,7 +24,7 @@
     <commons-text-api.version>1.10.0-78.v3e7b_ea_d5a_fe1</commons-text-api.version>
     <configuration-as-code.version>1700.v6f448841296e</configuration-as-code.version>
     <credentials-binding.version>523.vd859a_4b_122e6</credentials-binding.version>
-    <credentials.version>1189.vf61b_a_5e2f62e</credentials.version>
+    <credentials.version>1311.vcf0a_900b_37c2</credentials.version>
     <display-url-api.version>2.3.9</display-url-api.version>
     <durable-task.version>500.v8927d9fd99d8</durable-task.version>
     <git-client.version>4.2.0</git-client.version>
@@ -50,7 +50,9 @@
     <scm-api.version>631.v9143df5b_e4a_a</scm-api.version>
     <script-security.version>1229.v4880b_b_e905a_6</script-security.version>
     <snakeyaml-api.version>2.2-111.vc6598e30cc65</snakeyaml-api.version>
-    <ssh-credentials.version>305.v8f4381501156</ssh-credentials.version>
+    <ssh-agent.version>346.vda_a_c4f2c8e50</ssh-agent.version>
+    <ssh-credentials.version>308.ve4497b_ccd8f4</ssh-credentials.version>
+    <ssh-agents-plugin.version>2.948.vb_8050d697fec</ssh-agents-plugin.version>
     <structs.version>325.vcb_307d2a_2782</structs.version>
     <subversion.version>2.17.3</subversion.version>
     <trilead-api.version>2.84.v72119de229b_7</trilead-api.version>
@@ -132,7 +134,9 @@
                   <include>org.jenkins-ci.plugins:plain-credentials:${plain-credentials.version}</include>
 		  <include>org.jenkins-ci.plugins:scm-api:${scm-api.version}</include>
 		  <include>org.jenkins-ci.plugins:script-security:${script-security.version}</include>
+		  <include>org.jenkins-ci.plugins:ssh-agent:${ssh-agent.version}</include>
 		  <include>org.jenkins-ci.plugins:ssh-credentials:${ssh-credentials.version}</include>
+                  <include>org.jenkins-ci.plugins:ssh-slaves:${ssh-agents-plugin.version}</include>
 		  <include>org.jenkins-ci.plugins:structs:${structs.version}</include>
                   <include>org.jenkins-ci.plugins:subversion:${subversion.version}</include>
                   <include>org.jenkins-ci.plugins:trilead-api:${trilead-api.version}</include>
@@ -313,9 +317,17 @@
                   <location>/usr/share/jenkins/snakeyaml-api-${snakeyaml-api.version}.hpi</location>
                 </softlinkSource>
                 <softlinkSource>
+                  <destination>ssh-agent-${ssh-agent.version}.jpi</destination>
+                  <location>/usr/share/jenkins/ssh-agent-${ssh-agent.version}.hpi</location>
+                </softlinkSource>
+                <softlinkSource>
                   <destination>ssh-credentials-${ssh-credentials.version}.jpi</destination>
                   <location>/usr/share/jenkins/ssh-credentials-${ssh-credentials.version}.hpi</location>
                 </softlinkSource>                
+                <softlinkSource>
+                  <destination>ssh-agents-plugin-${ssh-agents-plugin.version}.jpi</destination>
+                  <location>/usr/share/jenkins/ssh-slaves-${ssh-agents-plugin.version}.hpi</location>
+                </softlinkSource>
                 <softlinkSource>
                   <destination>structs-${structs.version}.jpi</destination>
                   <location>/usr/share/jenkins/structs-${structs.version}.hpi</location>
@@ -586,8 +598,20 @@
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>ssh-agent</artifactId>
+      <version>${ssh-agent.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>ssh-credentials</artifactId>
       <version>${ssh-credentials.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>ssh-slaves</artifactId>
+      <version>${ssh-agents-plugin.version}</version>
       <type>hpi</type>
     </dependency>
     <dependency>
