@@ -4,7 +4,7 @@
   <parent>
     <artifactId>device-jenkins</artifactId>
     <groupId>zone.device.platform</groupId>
-    <version>0.9.0</version>
+    <version>0.9.1-SNAPSHOT</version>
   </parent>
 
   <properties>
@@ -20,7 +20,7 @@
 
   <artifactId>device-jenkins</artifactId>
   <groupId>zone.device.platform.el9</groupId>
-  <version>0.9.0</version>
+  <version>0.9.1-SNAPSHOT</version>
   <packaging>rpm</packaging>
   <name>device jenkins applicance for el9</name>
   <description>Packaging for the jenkins appliance for ${release.distribution}</description>
