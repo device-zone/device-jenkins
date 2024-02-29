@@ -11,10 +11,16 @@ if [ $# -eq 4 ]; then
 
   line=/etc/device/services/app/jenkins
 
-  if test ! -f "$line/virtualhost.d/listen.d/instance.d/name.txt" -o "${instance}" != "$(head -n 1 $line/virtualhost.d/listen.d/instance.d/name.txt)"; then
+  if test ! -f "$line/virtualhost.d/listen.d/instance.d/name.txt"; then
     exit 0;
   fi
-  if test ! -f "$line/virtualhost.d/name.txt" -o "${virtualhost}" != "$(head -n 1 $line/virtualhost.d/name.txt)"; then
+  if test "${instance}" != "$(head -n 1 $line/virtualhost.d/listen.d/instance.d/name.txt)"; then
+    exit 0;
+  fi
+  if test ! -f "$line/virtualhost.d/name.txt"; then
+    exit 0;
+  fi
+  if test "${virtualhost}" != "$(head -n 1 $line/virtualhost.d/name.txt)"; then
     exit 0;
   fi
   if test ! -f "$line/port.txt"; then
