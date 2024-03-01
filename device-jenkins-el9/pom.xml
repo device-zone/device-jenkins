@@ -235,7 +235,7 @@
             <require>java-17-openjdk</require>
             <require>jenkins</require>
             <require>device</require>
-            <require>httpd</require>
+            <require>device-httpd-bearer</require>
           </requires>
 	</configuration>
       </plugin>
