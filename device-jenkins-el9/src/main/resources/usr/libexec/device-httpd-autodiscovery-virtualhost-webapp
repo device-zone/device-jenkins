@@ -13,12 +13,8 @@ if [ $# -eq 3 ]; then
   if test ! -f "$line/virtualhost.d/name.txt" -o "${virtualhost}" != "$(head -n 1 $line/virtualhost.d/name.txt)"; then
     exit 0;
   fi
-  if test ! -f "$line/port.txt"; then
-    exit 0;
-  fi
   virtualhost="$(head -n 1 ${line}/virtualhost.d/name.txt)"
   application="jenkins"
-  port="$(head -n 1 ${line}/port.txt)"
 
   # read in the path if present
   path=""
