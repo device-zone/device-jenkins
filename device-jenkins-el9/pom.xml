@@ -138,8 +138,12 @@
                   <destination>10-sysconfig</destination>
                 </source>
                 <source>
+                  <location>target/classes/usr/libexec/device-jenkins-autodiscovery-location</location>
+                  <destination>20-location</destination>
+                </source>
+                <source>
                   <location>target/classes/usr/libexec/device-jenkins-autodiscovery-jwt-auth</location>
-                  <destination>20-jwt-auth</destination>
+                  <destination>30-jwt-auth</destination>
                 </source>
               </sources>
             </mapping>
