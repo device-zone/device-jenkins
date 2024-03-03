@@ -230,14 +230,15 @@
             <scriptFile>target/classes/preremove</scriptFile>
             <fileEncoding>utf-8</fileEncoding>
           </preremoveScriptlet>
-	  <requires>
+          <requires>
             <require>device-jenkins-plugins</require>
             <require>java-17-openjdk</require>
             <require>jenkins</require>
             <require>device</require>
             <require>device-httpd-bearer</require>
+            <require>device-httpd-selinux</require>
           </requires>
-	</configuration>
+        </configuration>
       </plugin>
     </plugins>
   </build>
