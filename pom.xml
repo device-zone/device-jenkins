@@ -84,6 +84,11 @@
       <name>Jenkins Repository</name>
       <url>https://repo.jenkins-ci.org/public/</url>
     </repository>
+    <repository>
+      <id>repo.jenkins-ci.org-incremental</id>
+      <name>Jenkins Incremental</name>
+      <url>https://repo.jenkins-ci.org/incrementals/</url>
+    </repository>
   </repositories>
 
   <distributionManagement>
