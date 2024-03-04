@@ -145,6 +145,10 @@
                   <location>target/classes/usr/libexec/device-jenkins-autodiscovery-jwt-auth</location>
                   <destination>30-jwt-auth</destination>
                 </source>
+                <source>
+                  <location>target/classes/usr/libexec/device-jenkins-autodiscovery-install</location>
+                  <destination>90-install</destination>
+                </source>
               </sources>
             </mapping>
             <mapping>

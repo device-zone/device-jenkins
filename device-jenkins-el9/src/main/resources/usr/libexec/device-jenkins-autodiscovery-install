@@ -1,0 +1,15 @@
+#!/bin/bash
+  
+#
+# Skip installation screen
+# ------------------------
+
+logger -t "${0}" "Notice: Marking jenkins installation as complete..."
+
+if test ! -f "/var/lib/jenkins/jenkins.install.InstallUtil.lastExecVersion"; then
+
+  touch "/var/lib/jenkins/jenkins.install.InstallUtil.lastExecVersion"
+  chown jenkins:jenkins "/var/lib/jenkins/jenkins.install.InstallUtil.lastExecVersion"
+
+fi
+
