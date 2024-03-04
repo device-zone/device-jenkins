@@ -33,6 +33,7 @@
     <durable-task.version>550.v0930093c4b_a_6</durable-task.version>
     <echarts-api.version>5.4.3-4</echarts-api.version>
     <font-awesome-api.version>6.5.1-3</font-awesome-api.version>
+    <git.version>5.2.1</git.version>
     <git-client.version>4.6.0</git-client.version>
     <gson-api.version>2.10.1-15.v0d99f670e0a_7</gson-api.version>
     <ionicons-api.version>56.v1b_1c8c49374e</ionicons-api.version>
@@ -50,7 +51,7 @@
     <metrics.version>4.2.21-449.v6960d7c54c69</metrics.version>
     <mina-sshd-api.version>2.12.0-90.v9f7fb_9fa_3d3b_</mina-sshd-api.version>
     <pipeline-graph-analysis.version>216.vfd8b_ece330ca_</pipeline-graph-analysis.version>
-    <pipeline-graph-view.version>224.vef989d141666</pipeline-graph-view.version>
+    <pipeline-graph-view.version>225.v87c53b_9237dd</pipeline-graph-view.version>
     <pipeline-groovy-lib.version>704.vc58b_8890a_384</pipeline-groovy-lib.version>
     <pipeline-input-step.version>491.vb_07d21da_1a_fb_</pipeline-input-step.version>
     <pipeline-model-api.version>2.2175.v76a_fff0a_2618</pipeline-model-api.version>
@@ -148,6 +149,7 @@
                   <include>org.jenkins-ci.plugins:cloudbees-folder:${cloudbees-folder.version}:hpi</include>
 		  <include>org.jenkins-ci.plugins:display-url-api:${display-url-api.version}:hpi</include>
 		  <include>org.jenkins-ci.plugins:durable-task:${durable-task.version}:hpi</include>
+                  <include>org.jenkins-ci.plugins:git:${git.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:junit:${junit.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:plain-credentials:${plain-credentials.version}:hpi</include>
 		  <include>org.jenkins-ci.plugins:scm-api:${scm-api.version}:hpi</include>
@@ -285,6 +287,10 @@
                 <softlinkSource>
                   <destination>font-awesome-api-${font-awesome-api.version}.jpi</destination>
                   <location>/usr/share/jenkins/font-awesome-api-${font-awesome-api.version}.hpi</location>
+                </softlinkSource>
+                <softlinkSource>
+                  <destination>git-${git.version}.jpi</destination>
+                  <location>/usr/share/jenkins/git-${git.version}.hpi</location>
                 </softlinkSource>
                 <softlinkSource>
                   <destination>git-client-${git-client.version}.jpi</destination>
@@ -690,6 +696,12 @@
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>durable-task</artifactId>
       <version>${durable-task.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>git</artifactId>
+      <version>${git.version}</version>
       <type>hpi</type>
     </dependency>
     <dependency>
