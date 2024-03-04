@@ -30,6 +30,7 @@
   <modules>
     <module>device-jenkins-el9</module>
     <module>device-jenkins-plugins-el9</module>
+    <module>device-jenkins-agent-el9</module>
   </modules>
 
   <build>

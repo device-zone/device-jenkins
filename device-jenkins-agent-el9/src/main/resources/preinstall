@@ -1,0 +1,3 @@
+/usr/bin/getent group jenkins-agent > /dev/null || /usr/sbin/groupadd -r jenkins-agent
+/usr/bin/getent passwd jenkins-agent > /dev/null || /usr/sbin/useradd -r -g jenkins-agent jenkins-agent -s /bin/bash -d /var/lib/jenkins-agent
+
