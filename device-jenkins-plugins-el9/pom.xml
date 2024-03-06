@@ -32,24 +32,26 @@
     <display-url-api.version>2.200.vb_9327d658781</display-url-api.version>
     <durable-task.version>550.v0930093c4b_a_6</durable-task.version>
     <echarts-api.version>5.4.3-4</echarts-api.version>
+    <embeddable-build-status.version>477.vfe1801ee3f8a_</embeddable-build-status.version>
     <font-awesome-api.version>6.5.1-3</font-awesome-api.version>
     <git.version>5.2.1</git.version>
     <git-client.version>4.6.0</git-client.version>
     <gson-api.version>2.10.1-15.v0d99f670e0a_7</gson-api.version>
     <ionicons-api.version>56.v1b_1c8c49374e</ionicons-api.version>
     <jackson2-api.version>2.16.1-373.ve709c6871598</jackson2-api.version>
-    <jakarta-activation-api.version>2.0.1-3</jakarta-activation-api.version>
-    <jakarta-mail-api.version>2.0.1-3</jakarta-mail-api.version>
+    <jakarta-activation-api.version>2.1.3-1</jakarta-activation-api.version>
+    <jakarta-mail-api.version>2.1.3-1</jakarta-mail-api.version>
     <jaxb.version>2.3.9-1</jaxb.version>
     <joda-time-api.version>2.12.7-30.v1cdb_3d73ca_e4</joda-time-api.version>
     <jquery3-api.version>3.7.1-2</jquery3-api.version>
     <json-api.version>20240205-27.va_007549e895c</json-api.version>
     <junit.version>1271.ve09f4cb_0b_a_9d</junit.version>
     <jwtauth.version>0.3.0</jwtauth.version>
-    <mailer.version>463.vedf8358e006b_</mailer.version>
+    <mailer.version>470.vc91f60c5d8e2</mailer.version>
     <mapdb-api.version>1.0.9-28.vf251ce40855d</mapdb-api.version>
     <metrics.version>4.2.21-449.v6960d7c54c69</metrics.version>
     <mina-sshd-api.version>2.12.0-90.v9f7fb_9fa_3d3b_</mina-sshd-api.version>
+    <pipeline-build-step.version>540.vb_e8849e1a_b_d8</pipeline-build-step.version>
     <pipeline-graph-analysis.version>216.vfd8b_ece330ca_</pipeline-graph-analysis.version>
     <pipeline-graph-view.version>225.v87c53b_9237dd</pipeline-graph-view.version>
     <pipeline-groovy-lib.version>704.vc58b_8890a_384</pipeline-groovy-lib.version>
@@ -59,22 +61,22 @@
     <pipeline-model-extensions.version>2.2175.v76a_fff0a_2618</pipeline-model-extensions.version>
     <pipeline-stage-step.version>305.ve96d0205c1c6</pipeline-stage-step.version>
     <pipeline-stage-tags-metadata.version>2.2176.vef977ec0095a_</pipeline-stage-tags-metadata.version>
-    <plain-credentials.version>143.v1b_df8b_d3b_e48</plain-credentials.version>
+    <plain-credentials.version>179.vc5cb_98f6db_38</plain-credentials.version>
     <plugin-util-api.version>4.1.0</plugin-util-api.version>
     <prism-api.version>1.29.0-13</prism-api.version>
     <scm-api.version>683.vb_16722fb_b_80b_</scm-api.version>
     <script-security.version>1326.vdb_c154de8669</script-security.version>
     <snakeyaml-api.version>2.2-111.vc6598e30cc65</snakeyaml-api.version>
     <ssh-agent.version>346.vda_a_c4f2c8e50</ssh-agent.version>
-    <ssh-credentials.version>308.ve4497b_ccd8f4</ssh-credentials.version>
+    <ssh-credentials.version>322.v124df57ed808 </ssh-credentials.version>
     <ssh-agents-plugin.version>2.948.vb_8050d697fec</ssh-agents-plugin.version>
     <sshd.version>3.322.v159e91f6a_550</sshd.version>
     <structs.version>337.v1b_04ea_4df7c8</structs.version>
     <subversion.version>2.17.3</subversion.version>
-    <trilead-api.version>2.133.vfb_8a_7b_9c5dd1</trilead-api.version>
+    <trilead-api.version>2.141.v284120fd0c46</trilead-api.version>
     <variant.version>60.v7290fc0eb_b_cd</variant.version>
     <workflow-api.version>1291.v51fd2a_625da_7</workflow-api.version>
-    <workflow-basic-steps.version>1042.ve7b_140c4a_e0c</workflow-basic-steps.version>
+    <workflow-basic-steps.version>1049.v257a_e6b_30fb_d </workflow-basic-steps.version>
     <workflow-cps.version>3880.vb_ef4b_5cfd270</workflow-cps.version>
     <workflow-durable-task-step.version>1331.vc8c2fed35334</workflow-durable-task-step.version>
     <workflow-job.version>1400.v7fd111b_ec82f</workflow-job.version>
@@ -149,6 +151,7 @@
                   <include>org.jenkins-ci.plugins:cloudbees-folder:${cloudbees-folder.version}:hpi</include>
 		  <include>org.jenkins-ci.plugins:display-url-api:${display-url-api.version}:hpi</include>
 		  <include>org.jenkins-ci.plugins:durable-task:${durable-task.version}:hpi</include>
+                  <include>org.jenkins-ci.plugins:embeddable-build-status:${embeddable-build-status.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:git:${git.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:junit:${junit.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:plain-credentials:${plain-credentials.version}:hpi</include>
@@ -204,6 +207,7 @@
 		  <include>org.jenkins-ci.plugins:mailer:${mailer.version}:hpi</include>
 		  <include>org.jenkins-ci.plugins:mapdb-api:${mapdb-api.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:metrics:${metrics.version}:hpi</include>
+                  <include>org.jenkins-ci.plugins:pipeline-build-step:${pipeline-build-step.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:pipeline-graph-analysis:${pipeline-graph-analysis.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:pipeline-input-step:${pipeline-input-step.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:pipeline-stage-step:${pipeline-stage-step.version}:hpi</include>
@@ -285,6 +289,10 @@
                   <location>/usr/share/jenkins/echarts-api-${echarts-api.version}.hpi</location>
                 </softlinkSource>
                 <softlinkSource>
+                  <destination>embeddable-build-status-${embeddable-build-status.version}.jpi</destination>
+                  <location>/usr/share/jenkins/embeddable-build-status-${embeddable-build-status.version}.hpi</location>
+                </softlinkSource>
+                <softlinkSource>
                   <destination>font-awesome-api-${font-awesome-api.version}.jpi</destination>
                   <location>/usr/share/jenkins/font-awesome-api-${font-awesome-api.version}.hpi</location>
                 </softlinkSource>
@@ -359,6 +367,10 @@
                 <softlinkSource>
                   <destination>mina-sshd-api-common-${mina-sshd-api.version}.jpi</destination>
                   <location>/usr/share/jenkins/mina-sshd-api-common-${mina-sshd-api.version}.hpi</location>
+                </softlinkSource>
+                <softlinkSource>
+                  <destination>pipeline-build-step-${pipeline-build-step.version}.jpi</destination>
+                  <location>/usr/share/jenkins/pipeline-build-step-${pipeline-build-step.version}.hpi</location>
                 </softlinkSource>
                 <softlinkSource>
                   <destination>pipeline-graph-view-${pipeline-graph-view.version}.jpi</destination>
@@ -700,6 +712,12 @@
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>embeddable-build-status</artifactId>
+      <version>${embeddable-build-status.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>git</artifactId>
       <version>${git.version}</version>
       <type>hpi</type>
@@ -738,6 +756,12 @@
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>metrics</artifactId>
       <version>${metrics.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>pipeline-build-step</artifactId>
+      <version>${pipeline-build-step.version}</version>
       <type>hpi</type>
     </dependency>
     <dependency>
