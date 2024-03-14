@@ -18,7 +18,8 @@
     <device.httpd.user>apache</device.httpd.user>
     <antisamy-markup-formatter.version>162.v0e6ec0fcfcf6</antisamy-markup-formatter.version>
     <apache-httpcomponents-client-4-api.version>4.5.14-208.v438351942757</apache-httpcomponents-client-4-api.version>
-    <bootstrap5-api.version>5.3.2-4</bootstrap5-api.version>
+    <asm-api.version>9.6-8.v52b_143b_766b_c</asm-api.version>
+    <bootstrap5-api.version>5.3.3-1</bootstrap5-api.version>
     <bouncycastle-api.version>2.30.1.77-225.v26ea_c9455fd9</bouncycastle-api.version>
     <branch-api.version>2.1152.v6f101e97dd77</branch-api.version>
     <caffeine-api.version>3.1.8-133.v17b_1ff2e0599</caffeine-api.version>
@@ -31,40 +32,41 @@
     <credentials.version>1337.v60b_d7b_c7b_c9f</credentials.version>
     <display-url-api.version>2.200.vb_9327d658781</display-url-api.version>
     <durable-task.version>550.v0930093c4b_a_6</durable-task.version>
-    <echarts-api.version>5.4.3-4</echarts-api.version>
+    <echarts-api.version>5.5.0-1</echarts-api.version>
     <embeddable-build-status.version>477.vfe1801ee3f8a_</embeddable-build-status.version>
     <font-awesome-api.version>6.5.1-3</font-awesome-api.version>
     <git.version>5.2.1</git.version>
-    <git-client.version>4.6.0</git-client.version>
+    <git-client.version>4.7.0</git-client.version>
     <gson-api.version>2.10.1-15.v0d99f670e0a_7</gson-api.version>
     <ionicons-api.version>56.v1b_1c8c49374e</ionicons-api.version>
-    <jackson2-api.version>2.16.1-373.ve709c6871598</jackson2-api.version>
+    <jackson2-api.version>2.16.2-378.v7e79818f53ce</jackson2-api.version>
     <jakarta-activation-api.version>2.1.3-1</jakarta-activation-api.version>
     <jakarta-mail-api.version>2.1.3-1</jakarta-mail-api.version>
     <jaxb.version>2.3.9-1</jaxb.version>
     <joda-time-api.version>2.12.7-30.v1cdb_3d73ca_e4</joda-time-api.version>
     <jquery3-api.version>3.7.1-2</jquery3-api.version>
-    <json-api.version>20240205-27.va_007549e895c</json-api.version>
+    <json-api.version>20240303-41.v94e11e6de726</json-api.version>
+    <json-path-api.version>2.9.0-51.v61a_f10dff77e</json-path-api.version>
     <junit.version>1271.ve09f4cb_0b_a_9d</junit.version>
     <jwtauth.version>0.3.0</jwtauth.version>
-    <mailer.version>470.vc91f60c5d8e2</mailer.version>
+    <mailer.version>472.vf7c289a_4b_420</mailer.version>
     <mapdb-api.version>1.0.9-28.vf251ce40855d</mapdb-api.version>
     <metrics.version>4.2.21-449.v6960d7c54c69</metrics.version>
     <mina-sshd-api.version>2.12.0-90.v9f7fb_9fa_3d3b_</mina-sshd-api.version>
     <pipeline-build-step.version>540.vb_e8849e1a_b_d8</pipeline-build-step.version>
     <pipeline-graph-analysis.version>216.vfd8b_ece330ca_</pipeline-graph-analysis.version>
-    <pipeline-graph-view.version>225.v87c53b_9237dd</pipeline-graph-view.version>
+    <pipeline-graph-view.version>231.vecb_8c5841335</pipeline-graph-view.version>
     <pipeline-groovy-lib.version>704.vc58b_8890a_384</pipeline-groovy-lib.version>
     <pipeline-input-step.version>491.vb_07d21da_1a_fb_</pipeline-input-step.version>
-    <pipeline-model-api.version>2.2175.v76a_fff0a_2618</pipeline-model-api.version>
-    <pipeline-model-definition.version>2.2175.v76a_fff0a_2618</pipeline-model-definition.version>
-    <pipeline-model-extensions.version>2.2175.v76a_fff0a_2618</pipeline-model-extensions.version>
+    <pipeline-model-api.version>2.2183.vb_36481468374</pipeline-model-api.version>
+    <pipeline-model-definition.version>2.2183.vb_36481468374</pipeline-model-definition.version>
+    <pipeline-model-extensions.version>2.2183.vb_36481468374</pipeline-model-extensions.version>
     <pipeline-stage-step.version>305.ve96d0205c1c6</pipeline-stage-step.version>
-    <pipeline-stage-tags-metadata.version>2.2176.vef977ec0095a_</pipeline-stage-tags-metadata.version>
+    <pipeline-stage-tags-metadata.version>2.2183.vb_36481468374</pipeline-stage-tags-metadata.version>
     <plain-credentials.version>179.vc5cb_98f6db_38</plain-credentials.version>
     <plugin-util-api.version>4.1.0</plugin-util-api.version>
     <prism-api.version>1.29.0-13</prism-api.version>
-    <scm-api.version>683.vb_16722fb_b_80b_</scm-api.version>
+    <scm-api.version>689.v237b_6d3a_ef7f</scm-api.version>
     <script-security.version>1326.vdb_c154de8669</script-security.version>
     <snakeyaml-api.version>2.2-111.vc6598e30cc65</snakeyaml-api.version>
     <ssh-agent.version>346.vda_a_c4f2c8e50</ssh-agent.version>
@@ -73,17 +75,19 @@
     <sshd.version>3.322.v159e91f6a_550</sshd.version>
     <structs.version>337.v1b_04ea_4df7c8</structs.version>
     <subversion.version>2.17.3</subversion.version>
-    <trilead-api.version>2.141.v284120fd0c46</trilead-api.version>
+    <token-macro.version>409.vf8b_1b_b_e19a_ef</token-macro.version>
+    <trilead-api.version>2.142.v748523a_76693</trilead-api.version>
     <variant.version>60.v7290fc0eb_b_cd</variant.version>
     <workflow-api.version>1291.v51fd2a_625da_7</workflow-api.version>
     <workflow-basic-steps.version>1049.v257a_e6b_30fb_d </workflow-basic-steps.version>
-    <workflow-cps.version>3880.vb_ef4b_5cfd270</workflow-cps.version>
+    <workflow-cps.version>3883.vb_3ff2a_e3eea_f</workflow-cps.version>
     <workflow-durable-task-step.version>1331.vc8c2fed35334</workflow-durable-task-step.version>
     <workflow-job.version>1400.v7fd111b_ec82f</workflow-job.version>
     <workflow-multibranch.version>773.vc4fe1378f1d5</workflow-multibranch.version>
     <workflow-scm-step.version>415.v434365564324</workflow-scm-step.version>
     <workflow-step-api.version>657.v03b_e8115821b_</workflow-step-api.version>
     <workflow-support.version>876.v991d8541a_7f3</workflow-support.version>
+    <xcode.version>2.0.17-580.v03b_fb_1696a_11</xcode.version>
   </properties>
 
   <artifactId>device-jenkins-plugins</artifactId>
@@ -163,12 +167,15 @@
                   <include>org.jenkins-ci.modules:sshd:${sshd.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:structs:${structs.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:subversion:${subversion.version}:hpi</include>
+                  <include>org.jenkins-ci.plugins:token-macro:${token-macro.version}:hpi</include>
                   <include>org.jenkins-ci.plugins:trilead-api:${trilead-api.version}:hpi</include>
 		  <include>org.jenkins-ci.plugins:variant:${variant.version}:hpi</include>
+                  <include>org.jenkins-ci.plugins:xcode-plugin:${xcode.version}:hpi</include>
                   <include>org.jenkinsci.plugins:pipeline-model-api:${pipeline-model-api.version}:hpi</include>
                   <include>org.jenkinsci.plugins:pipeline-model-definition:${pipeline-model-definition.version}:hpi</include>
                   <include>org.jenkinsci.plugins:pipeline-model-extensions:${pipeline-model-extensions.version}:hpi</include>
-                  <include>org.jenkinsci.plugins:pipeline-stage-tags-metadata:${pipeline-stage-tags-metadata.version}:hpi</include>
+		  <include>org.jenkinsci.plugins:pipeline-stage-tags-metadata:${pipeline-stage-tags-metadata.version}:hpi</include>
+		  <include>io.jenkins.plugins:asm-api:${asm-api.version}:hpi</include>
                   <include>io.jenkins.plugins:bootstrap5-api:${bootstrap5-api.version}:hpi</include>
                   <include>io.jenkins.plugins:caffeine-api:${caffeine-api.version}:hpi</include>
                   <include>io.jenkins.plugins:checks-api:${checks-api.version}:hpi</include>
@@ -183,7 +190,8 @@
                   <include>io.jenkins.plugins:jaxb:${jaxb.version}:hpi</include>
                   <include>io.jenkins.plugins:joda-time-api:${joda-time-api.version}:hpi</include>			    
                   <include>io.jenkins.plugins:jquery3-api:${jquery3-api.version}:hpi</include>
-                  <include>io.jenkins.plugins:json-api:${json-api.version}:hpi</include>
+		  <include>io.jenkins.plugins:json-api:${json-api.version}:hpi</include>
+		  <include>io.jenkins.plugins:json-path-api:${json-path-api.version}:hpi</include>
                   <include>io.jenkins.plugins:jwt-auth:${jwtauth.version}:hpi</include>
                   <include>io.jenkins.plugins:pipeline-graph-view:${pipeline-graph-view.version}:hpi</include>
                   <include>io.jenkins.plugins:pipeline-groovy-lib:${pipeline-groovy-lib.version}:hpi</include>
@@ -231,6 +239,10 @@
                 <softlinkSource>
                   <destination>apache-httpcomponents-client-4-api-${apache-httpcomponents-client-4-api.version}.jpi</destination>
                   <location>/usr/share/jenkins/apache-httpcomponents-client-4-api-${apache-httpcomponents-client-4-api.version}.hpi</location>
+                </softlinkSource>
+                <softlinkSource>
+                  <destination>asm-api-${asm-api.version}.jpi</destination>
+                  <location>/usr/share/jenkins/asm-api-${asm-api.version}.hpi</location>
                 </softlinkSource>
                 <softlinkSource>
                   <destination>bootstrap5-api-${bootstrap5-api.version}.jpi</destination>
@@ -331,6 +343,10 @@
                 <softlinkSource>
                   <destination>json-api-${json-api.version}.jpi</destination>
                   <location>/usr/share/jenkins/json-api-${json-api.version}.hpi</location>
+                </softlinkSource>
+                <softlinkSource>
+                  <destination>json-path-api-${json-path-api.version}.jpi</destination>
+                  <location>/usr/share/jenkins/json-path-api-${json-path-api.version}.hpi</location>
                 </softlinkSource>
                 <softlinkSource>
                   <destination>jakarta-activation-api-${jakarta-activation-api.version}.jpi</destination>
@@ -457,6 +473,10 @@
                   <location>/usr/share/jenkins/subversion-${subversion.version}.hpi</location>
                 </softlinkSource>
                 <softlinkSource>
+                  <destination>token-macro-${token-macro.version}.jpi</destination>
+                  <location>/usr/share/jenkins/token-macro-${token-macro.version}.hpi</location>
+                </softlinkSource>
+                <softlinkSource>
                   <destination>trilead-api-${trilead-api.version}.jpi</destination>
                   <location>/usr/share/jenkins/trilead-api-${trilead-api.version}.hpi</location>
                 </softlinkSource>
@@ -500,6 +520,10 @@
                   <destination>variant-${variant.version}.jpi</destination>
                   <location>/usr/share/jenkins/variant-${variant.version}.hpi</location>
                 </softlinkSource>
+                <softlinkSource>
+                  <destination>xcode-plugin-${xcode.version}.jpi</destination>
+                  <location>/usr/share/jenkins/xcode-plugin-${xcode.version}.hpi</location>
+                </softlinkSource>
               </sources>
             </mapping>
           </mappings>
@@ -516,6 +540,12 @@
       <groupId>io.jenkins</groupId>
       <artifactId>configuration-as-code</artifactId>
       <version>${configuration-as-code.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>asm-api</artifactId>
+      <version>${asm-api.version}</version>
       <type>hpi</type>
     </dependency>
     <dependency>
@@ -594,6 +624,12 @@
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>json-api</artifactId>
       <version>${json-api.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>json-path-api</artifactId>
+      <version>${json-path-api.version}</version>
       <type>hpi</type>
     </dependency>
     <dependency>
@@ -862,6 +898,12 @@
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>token-macro</artifactId>
+      <version>${token-macro.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>trilead-api</artifactId>
       <version>${trilead-api.version}</version>
       <type>hpi</type>
@@ -870,6 +912,12 @@
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>variant</artifactId>
       <version>${variant.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>xcode-plugin</artifactId>
+      <version>${xcode.version}</version>
       <type>hpi</type>
     </dependency>
     <dependency>
