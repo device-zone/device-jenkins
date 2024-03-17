@@ -3,13 +3,14 @@
 set -e
 umask 0002
 
-OPTIONS="--polar disabled --relation-base /etc/device/services/www/virtualhost --relation-name name --relation-suffix .txt --relation virtualhost --relation-base /etc/device/services/www/auth --relation-name name --relation-suffix .txt --relation auth --required --url-path-abempty path"
+OPTIONS="--polar disabled --polar allow-anonymous --relation-base /etc/device/services/www/virtualhost --relation-name name --relation-suffix .txt --relation virtualhost --relation-base /etc/device/services/www/auth --relation-name name --relation-suffix .txt --relation auth --required --url-path-abempty path"
 
 if [ "$1" == "--" ]; then
 
   /usr/libexec/device-set ${OPTIONS} "$@"
 
   if test -f "disabled.bin"; then
+    /usr/bin/sudo /usr/bin/systemctl try-reload-or-restart httpd-autodiscovery.service
     /usr/bin/sudo /usr/bin/systemctl --quiet disable jenkins.service
     if systemctl is-active --quiet jenkins-autodiscovery.service; then
       /usr/bin/sudo /usr/bin/systemctl stop jenkins.service
@@ -17,6 +18,7 @@ if [ "$1" == "--" ]; then
       echo "jenkins will be disabled on next reboot."
     fi
   else
+    /usr/bin/sudo /usr/bin/systemctl try-reload-or-restart httpd-autodiscovery.service
     /usr/bin/sudo /usr/bin/systemctl --quiet enable jenkins.service
     if systemctl is-active --quiet jenkins-autodiscovery.service; then
       /usr/bin/sudo /usr/bin/systemctl restart jenkins-autodiscovery.service

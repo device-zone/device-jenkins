@@ -62,6 +62,11 @@ if [ $# -eq 3 ]; then
     fi
   fi
 
+  allow_anonymous=""
+  if test -f "$line/allow-anonymous.bin"; then
+    allow_anonymous="true"
+  fi
+
 # jwt if present
 #if test -f "/var/lib/tomcats/jenkins-${application}/conf/jwt-secret.txt"; then
 #  install -m 640 "/var/lib/tomcats/jenkins-${application}/conf/jwt-secret.txt" "/run/httpd/instance-device-${instance}/jwt-secret-jenkins-${application}.txt"
@@ -126,6 +131,11 @@ EOF
 #    AuthtJwtSign hs256 file "/run/httpd/instance-device-${instance}/jwt-secret-jenkins-${application}.txt"
 
   </If>
+EOF
+  fi
+
+  if test -z "${allow_anonymous}"; then
+    cat >> "location.conf" <<- EOF
   <Else>
     require all denied
 

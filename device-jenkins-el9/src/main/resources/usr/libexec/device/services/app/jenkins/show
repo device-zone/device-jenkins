@@ -3,7 +3,7 @@
 set -e
 umask 0002
 
-OPTIONS="--show - --polar disabled --relation-base /etc/device/services/www/virtualhost --relation-name name --relation-suffix .txt --relation virtualhost --relation-base /etc/device/services/www/auth --relation-name name --relation-suffix .txt --relation auth --required --url-path-abempty path"
+OPTIONS="--show - --polar disabled --polar allow-anonymous --relation-base /etc/device/services/www/virtualhost --relation-name name --relation-suffix .txt --relation virtualhost --relation-base /etc/device/services/www/auth --relation-name name --relation-suffix .txt --relation auth --required --url-path-abempty path"
 
 if [ "$1" == "--" ]; then
 
