@@ -53,7 +53,7 @@
     <mailer.version>478.ve693a_b_94cd77</mailer.version>
     <mapdb-api.version>3.1.0-39.v223de13b_4b_20</mapdb-api.version>
     <metrics.version>4.2.25-450.v18ee3d9e41b_0</metrics.version>
-    <mina-sshd-api.version>2.12.1-111.v357e46a_6a_8a_5</mina-sshd-api.version>
+    <mina-sshd-api.version>2.12.1-113.v4d3ea_5eb_7f72</mina-sshd-api.version>
     <pipeline-build-step.version>543.v339a_df571623</pipeline-build-step.version>
     <pipeline-graph-analysis.version>225.v988da_dcdfb_29</pipeline-graph-analysis.version>
     <pipeline-graph-view.version>294.v3143717b_6b_93</pipeline-graph-view.version>
@@ -73,7 +73,7 @@
     <ssh-agent.version>370.v06d66d411ce6</ssh-agent.version>
     <ssh-credentials.version>340.vf0948074a_a_23</ssh-credentials.version>
     <ssh-agents-plugin.version>2.969.vf39edb_77f2cc</ssh-agents-plugin.version>
-    <sshd.version>3.328.v475fb_1e05b_cb_</sshd.version>
+    <sshd.version>3.328.v659088899699</sshd.version>
     <structs.version>338.vf5183d71f625</structs.version>
     <subversion.version>1261.v87970d55a_548</subversion.version>
     <token-macro.version>999999259.v689cf70c5a47</token-macro.version>
