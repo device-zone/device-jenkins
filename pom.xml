@@ -9,7 +9,7 @@
 
   <artifactId>device-jenkins</artifactId>
   <groupId>zone.device.platform</groupId>
-  <version>0.9.7</version>
+  <version>0.9.8-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>device jenkins package</name>
   <description>Packaging for the jenkins appliance</description>
@@ -24,7 +24,7 @@
     <connection>scm:git:https://github.com/device-zone/device-jenkins.git</connection>
     <developerConnection>scm:git:https://github.com/device-zone/device-jenkins.git</developerConnection>
     <url>https://github.com/device-zone/device-jenkins</url>
-    <tag>device-jenkins-0.9.7</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <modules>
