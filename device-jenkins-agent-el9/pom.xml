@@ -116,7 +116,7 @@
 	  </preremoveScriptlet>
           -->
           <requires>
-            <require>java-17-openjdk</require>
+            <require>(java-17-openjdk or java-21-openjdk or java-25-openjdk)</require>
           </requires>
         </configuration>
       </plugin>
