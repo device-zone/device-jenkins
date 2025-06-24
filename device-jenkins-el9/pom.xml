@@ -225,6 +225,18 @@
                 </source>
               </sources>
             </mapping>
+            <mapping>
+              <directory>/usr/share/device/services/app/jenkins</directory>
+              <directoryIncluded>false</directoryIncluded>
+              <filemode>644</filemode>
+              <username>root</username>
+              <groupname>root</groupname>
+              <sources>
+                <source>
+                  <location>target/classes/usr/share/device/services/app/jenkins/protocol.txt</location>
+                </source>
+              </sources>
+            </mapping>
           </mappings>
           <preinstallScriptlet>
             <scriptFile>target/classes/preinstall</scriptFile>
