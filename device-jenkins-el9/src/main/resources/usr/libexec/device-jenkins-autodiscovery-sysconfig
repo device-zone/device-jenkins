@@ -36,7 +36,7 @@ cat > "jenkins" <<- EOF
 # DO NOT MODIFY THIS FILE - it will be overwritten on server restart.
 #
 
-JAVA_HOME=/etc/alternatives/jre_17
+JAVA_HOME=/etc/alternatives/jre_21
 
 JENKINS_PORT=-1
 JENKINS_PREFIX=${path}

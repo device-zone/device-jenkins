@@ -252,7 +252,7 @@
           </preremoveScriptlet>
           <requires>
             <require>device-jenkins-plugins</require>
-            <require>java-17-openjdk</require>
+            <require>java-21-openjdk</require>
             <require>jenkins</require>
             <require>device</require>
             <require>device-httpd-bearer</require>
