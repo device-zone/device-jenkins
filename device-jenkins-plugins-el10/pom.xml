@@ -4,11 +4,11 @@
   <parent>
     <artifactId>device-jenkins</artifactId>
     <groupId>zone.device.platform</groupId>
-    <version>0.9.13-SNAPSHOT</version>
+    <version>2.0.0-SNAPSHOT</version>
   </parent>
 
   <properties>
-    <release.distribution>el9</release.distribution>
+    <release.distribution>el10</release.distribution>
     <release.instance>device</release.instance>
     <jdk.version>1.8</jdk.version>
     <release.cacert>/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem</release.cacert>
@@ -16,87 +16,87 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <device.jenkins.group>jenkins</device.jenkins.group>
     <device.httpd.user>apache</device.httpd.user>
-    <antisamy-markup-formatter.version>181.v223781d54e1d</antisamy-markup-formatter.version>
-    <apache-httpcomponents-client-4-api.version>4.5.14-298.v15a_356b_1b_e14</apache-httpcomponents-client-4-api.version>
-    <asm-api.version>9.8-163.vb_2a_96d3f9c3c</asm-api.version>
-    <bootstrap5-api.version>5.3.7-2-rc842.4120a_8b_a_d279</bootstrap5-api.version>
-    <bouncycastle-api.version>2.30.1.81-262.vc422c5a_15703</bouncycastle-api.version>
-    <branch-api.version>2.1241.v9166324c9cb_b_</branch-api.version>
-    <caffeine-api.version>3.2.2-178.v353b_8428ed56</caffeine-api.version>
-    <checks-api.version>382.vf4e4b_7f371cf</checks-api.version>
+    <antisamy-markup-formatter.version>173.v680e3a_b_69ff3</antisamy-markup-formatter.version>
+    <apache-httpcomponents-client-4-api.version>4.5.14-304.v93e940d17b_e8</apache-httpcomponents-client-4-api.version>
+    <asm-api.version>9.8-172.vb_3d59c0efd0f</asm-api.version>
+    <bootstrap5-api.version>5.3.7-868.vfcd040708da_2</bootstrap5-api.version>
+    <bouncycastle-api.version>2.30.1.81-268.vc5c4e0726360</bouncycastle-api.version>
+    <branch-api.version>2.1252.va_9805f23b_c11</branch-api.version>
+    <caffeine-api.version>3.2.2-185.v70346b_dd9cc2</caffeine-api.version>
+    <checks-api.version>391.vcf9d2435b_607</checks-api.version>
     <cloudbees-folder.version>6.1077.vd1f23ee0cf01</cloudbees-folder.version>
-    <commons-lang3-api.version>3.18.0-98.v645148c555b_0</commons-lang3-api.version>
-    <commons-text-api.version>1.14.0-194.v804a_dc3a_1b_d8</commons-text-api.version>
-    <configuration-as-code.version>1984.v9153ed5173c0</configuration-as-code.version>
+    <commons-lang3-api.version>3.18.0-101.v5a_3a_39cc1a_9f</commons-lang3-api.version>
+    <commons-text-api.version>1.14.0-197.ve5e27769ccee</commons-text-api.version>
+    <configuration-as-code.version>1991.v29b_e219eb_a_51</configuration-as-code.version>
     <credentials-binding.version>707.v336047874b_70</credentials-binding.version>
-    <credentials.version>1418.v5d65b_b_c33a_0f</credentials.version>
-    <display-url-api.version>2.214.vc93ce67d36c8</display-url-api.version>
-    <durable-task.version>594.v093d5387225c</durable-task.version>
-    <echarts-api.version>5.6.0-6-rc1122.68c5570b_5fb_4</echarts-api.version>
-    <eddsa-api.version>0.3.0.1-20.va_c4866491127</eddsa-api.version>
-    <embeddable-build-status.version>617.vc8514d83fecc</embeddable-build-status.version>
-    <font-awesome-api.version>7.0.0-2-rc832.2a_b_d6823ce4d</font-awesome-api.version>
-    <git.version>5.7.1-rc5464.4e4440128751</git.version>
-    <git-client.version>6.2.1-rc3902.05db_f78a_f2db_</git-client.version>
-    <gson-api.version>2.13.1-153.vb_3d0c48a_a_b_4a_</gson-api.version>
-    <ionicons-api.version>90.vd7ce2272d2f0</ionicons-api.version>
-    <jackson2-api.version>2.19.2-408.vc4a_1eb_075f15</jackson2-api.version>
-    <jakarta-activation-api.version>2.1.3-3-rc106.113a_ddd0efb_7</jakarta-activation-api.version>
-    <jakarta-mail-api.version>2.1.3-3-rc129.44a_c0de0b_d9c</jakarta-mail-api.version>
-    <jaxb.version>2.3.9-135.vfcb_55682a_a_f4</jaxb.version>
-    <joda-time-api.version>2.14.0-149.v1c3ce991d1b_9</joda-time-api.version>
-    <jquery3-api.version>3.7.1-4-rc580.8b_4b_93258c4b_</jquery3-api.version>
-    <json-api.version>20250517-163.v1c5da_e99c775</json-api.version>
-    <json-path-api.version>2.9.0-178.vca_b_c71881321</json-path-api.version>
-    <junit.version>1348.v492ec293a_2f7</junit.version>
+    <credentials.version>1446.vf787b_a_b_ec7b_f</credentials.version>
+    <display-url-api.version>2.218.vec6745e0b_008</display-url-api.version>
+    <durable-task.version>601.vcb_34272997c0</durable-task.version>
+    <echarts-api.version>6.0.0-1148.v90ca_86964d7c</echarts-api.version>
+    <eddsa-api.version>0.3.0-13.v7cb_69ed68f00</eddsa-api.version>
+    <embeddable-build-status.version>624.v37a_47409953e</embeddable-build-status.version>
+    <font-awesome-api.version>7.0.0-853.vf5ef02ef6fb_c</font-awesome-api.version>
+    <git.version>5.7.1-rc5477.b_92efdec2b_8e</git.version>
+    <git-client.version>6.4.0-rc3802.5567a_fe642eb_</git-client.version>
+    <gson-api.version>2.13.1-162.vf1171ed9c75f</gson-api.version>
+    <ionicons-api.version>94.vcc3065403257</ionicons-api.version>
+    <jackson2-api.version>2.20.0-417.va_5311a_823a_b_8</jackson2-api.version>
+    <jakarta-activation-api.version>2.1.3-3-rc109.579827e3b_a_c8</jakarta-activation-api.version>
+    <jakarta-mail-api.version>2.1.3-4-rc136.75d17d680fde</jakarta-mail-api.version>
+    <jaxb.version>2.3.9-138.vfa_83c9fa_8d99</jaxb.version>
+    <joda-time-api.version>2.14.0-154.v78fcda_744c7f</joda-time-api.version>
+    <jquery3-api.version>3.7.1-602.va_d9e343a_cb_93</jquery3-api.version>
+    <json-api.version>20250517-173.v596efb_962a_31</json-api.version>
+    <json-path-api.version>2.9.0-190.veefca_05d5477</json-path-api.version>
+    <junit.version>1414.v038b_6d71160a_</junit.version>
     <jwtauth.version>0.3.0</jwtauth.version>
-    <mailer.version>515.v636499812354</mailer.version>
-    <mapdb-api.version>1.0.9-46.v40292467e308</mapdb-api.version>
-    <metrics.version>4.2.33-477.v337c48284e12</metrics.version>
-    <mina-sshd-api.version>2.15.0-164.v9b_b_44718c0f6</mina-sshd-api.version>
+    <mailer.version>523.vef86a_b_33da_86</mailer.version>
+    <mapdb-api.version>1.0.9-46.vdd9d87178c87</mapdb-api.version>
+    <metrics.version>4.2.36-485.vea_fee1324d4b_</metrics.version>
+    <mina-sshd-api.version>2.16.0-168.v8fec445cd22f</mina-sshd-api.version>
     <msbuild.version>1.37</msbuild.version>
     <pipeline-build-step.version>572.v2067b_5e824a_3</pipeline-build-step.version>
-    <pipeline-graph-analysis.version>243.v6fa_b_1a_8a_4092</pipeline-graph-analysis.version>
-    <pipeline-graph-view.version>617.vb_0ede7a_b_13f2</pipeline-graph-view.version>
-    <pipeline-groovy-lib.version>761.vce3c0ee1a_f05</pipeline-groovy-lib.version>
-    <pipeline-input-step.version>532.v9e7466cb_4406</pipeline-input-step.version>
-    <pipeline-model-api.version>2.2258.v4e96d2b_da_f9b_</pipeline-model-api.version>
-    <pipeline-model-definition.version>2.2258.v4e96d2b_da_f9b_</pipeline-model-definition.version>
-    <pipeline-model-extensions.version>2.2258.v4e96d2b_da_f9b_</pipeline-model-extensions.version>
+    <pipeline-graph-analysis.version>245.v88f03631a_b_21</pipeline-graph-analysis.version>
+    <pipeline-graph-view.version>640.v60635f3b_3908</pipeline-graph-view.version>
+    <pipeline-groovy-lib.version>844.v74ea_3847feff</pipeline-groovy-lib.version>
+    <pipeline-input-step.version>535.vdd0645ccc1c9</pipeline-input-step.version>
+    <pipeline-model-api.version>2.2267.vcc9a_1a_0d4da_2</pipeline-model-api.version>
+    <pipeline-model-definition.version>2.2267.vcc9a_1a_0d4da_2</pipeline-model-definition.version>
+    <pipeline-model-extensions.version>2.2267.vcc9a_1a_0d4da_2</pipeline-model-extensions.version>
     <pipeline-stage-step.version>324.vf29c7a_e5d7b_f</pipeline-stage-step.version>
-    <pipeline-stage-tags-metadata.version>2.2258.v4e96d2b_da_f9b_</pipeline-stage-tags-metadata.version>
-    <plain-credentials.version>200.vcb_28991cb_a_8a_</plain-credentials.version>
-    <plugin-util-api.version>6.2.0-rc1140.1b_a_7406f4b_18</plugin-util-api.version>
-    <prism-api.version>1.30.0-2-rc590.8755a_35d6f57</prism-api.version>
-    <scm-api.version>710.vf31712e9cf0e</scm-api.version>
-    <script-security.version>1377.vce099f6c9e8f</script-security.version>
-    <snakeyaml-api.version>2.4-133.vc575b_dfefd41</snakeyaml-api.version>
+    <pipeline-stage-tags-metadata.version>2.2267.vcc9a_1a_0d4da_2</pipeline-stage-tags-metadata.version>
+    <plain-credentials.version>201.v9b_8fd821920d</plain-credentials.version>
+    <plugin-util-api.version>6.1172.v6807cfc7f547</plugin-util-api.version>
+    <prism-api.version>1.30.0-613.vf3125b_7a_4764</prism-api.version>
+    <scm-api.version>712.v7f2b_d0b_e0f97</scm-api.version>
+    <script-security.version>1381.v483eb_7988b_3d</script-security.version>
+    <snakeyaml-api.version>2.5-139.v9d6630031552</snakeyaml-api.version>
     <ssh-agent.version>386.v36cc0c7582f0</ssh-agent.version>
-    <ssh-credentials.version>360.vc73e3f9e9b_a_b_</ssh-credentials.version>
+    <ssh-credentials.version>362.vda_b_704a_0c59b_</ssh-credentials.version>
     <ssh-agents-plugin.version>3.1087.v62cea_df870b_f</ssh-agents-plugin.version>
-    <sshd.version>3.376.v771553a_459a_f</sshd.version>
-    <structs.version>351.v71739c4a_9dc9</structs.version>
-    <subversion.version>1289.vf3c1175f338b_</subversion.version>
-    <token-macro.version>475.v66779774f6db_</token-macro.version>
-    <trilead-api.version>2.252.v6b_dc867c073b_</trilead-api.version>
+    <sshd.version>3.376.vddd1a_4004d02</sshd.version>
+    <structs.version>354.vf96b_02494648</structs.version>
+    <subversion.version>1295.v79fcfc351f84</subversion.version>
+    <token-macro.version>489.vd9d1a_2a_61c7f</token-macro.version>
+    <trilead-api.version>2.264.v786f6f31710e</trilead-api.version>
     <variant.version>72.ve1997d854b_b_7</variant.version>
-    <workflow-api.version>1400.v423246b_69858</workflow-api.version>
+    <workflow-api.version>1411.vd93a_e64a_f374</workflow-api.version>
     <workflow-basic-steps.version>1093.v211ede589001</workflow-basic-steps.version>
-    <workflow-cps.version>4180.v5df8a_3e98923</workflow-cps.version>
-    <workflow-durable-task-step.version>1442.vb_a_b_f5f3da_9f9</workflow-durable-task-step.version>
-    <workflow-job.version>1542.vb_a_88db_594811</workflow-job.version>
-    <workflow-multibranch.version>810.vd1d8e82ecce8</workflow-multibranch.version>
-    <workflow-scm-step.version>441.vd6873e0c9a_90</workflow-scm-step.version>
-    <workflow-step-api.version>707.v76364b_2b_6818</workflow-step-api.version>
-    <workflow-support.version>975.v1179d75e921d</workflow-support.version>
+    <workflow-cps.version>4236.v3cb_7ea_578c1f</workflow-cps.version>
+    <workflow-durable-task-step.version>1460.v4999c0343d02</workflow-durable-task-step.version>
+    <workflow-job.version>1547.vb_eeb_c7f31f22</workflow-job.version>
+    <workflow-multibranch.version>816.v7a_694b_826a_5d</workflow-multibranch.version>
+    <workflow-scm-step.version>441.vf65701d6e417</workflow-scm-step.version>
+    <workflow-step-api.version>708.v2947ea_e2966b_</workflow-step-api.version>
+    <workflow-support.version>980.ve898b_2765ec9</workflow-support.version>
     <xcode.version>2.0.17-565.v1c48051d46ef</xcode.version>
   </properties>
 
   <artifactId>device-jenkins-plugins</artifactId>
-  <groupId>zone.device.platform.el9</groupId>
-  <version>0.9.13-SNAPSHOT</version>
+  <groupId>zone.device.platform.el10</groupId>
+  <version>2.0.0-SNAPSHOT</version>
   <packaging>rpm</packaging>
-  <name>device jenkins applicance plugins for el9</name>
+  <name>device jenkins applicance plugins for el10</name>
   <description>Packaging for the jenkins appliance plugins for ${release.distribution}</description>
   <inceptionYear>2023</inceptionYear>
 
@@ -104,7 +104,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
-        <version>3.3.2</version>
+        <version>3.5.0</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -116,17 +116,17 @@
       </plugin>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
-        <version>4.0.0-M14</version>
+        <version>3.21.0</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.2.5</version>
+        <version>3.5.3</version>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>rpm-maven-plugin</artifactId>
-        <version>2.2.0</version>
+        <version>2.3.0</version>
         <extensions>true</extensions>
         <configuration>
           <copyright>Graham Leggett</copyright>
