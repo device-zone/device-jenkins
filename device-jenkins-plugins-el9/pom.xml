@@ -33,7 +33,7 @@
     <display-url-api.version>2.218.vec6745e0b_008</display-url-api.version>
     <durable-task.version>601.vcb_34272997c0</durable-task.version>
     <echarts-api.version>6.0.0-1148.v90ca_86964d7c</echarts-api.version>
-    <eddsa-api.version>0.3.0-13.v7cb_69ed68f00</eddsa-api.version>
+    <eddsa-api.version>0.3.0.1-19.vc432d923e5ee</eddsa-api.version>
     <embeddable-build-status.version>624.v37a_47409953e</embeddable-build-status.version>
     <font-awesome-api.version>7.0.0-853.vf5ef02ef6fb_c</font-awesome-api.version>
     <git.version>5.7.1-rc5477.b_92efdec2b_8e</git.version>
@@ -43,6 +43,7 @@
     <jackson2-api.version>2.20.0-417.va_5311a_823a_b_8</jackson2-api.version>
     <jakarta-activation-api.version>2.1.3-3-rc109.579827e3b_a_c8</jakarta-activation-api.version>
     <jakarta-mail-api.version>2.1.3-4-rc136.75d17d680fde</jakarta-mail-api.version>
+    <jakarta-xml-bind-api.version>4.0.5-3.v3d5b_a_73965b_9</jakarta-xml-bind-api.version>
     <jaxb.version>2.3.9-138.vfa_83c9fa_8d99</jaxb.version>
     <joda-time-api.version>2.14.0-154.v78fcda_744c7f</joda-time-api.version>
     <jquery3-api.version>3.7.1-602.va_d9e343a_cb_93</jquery3-api.version>
@@ -190,6 +191,7 @@
                   <include>io.jenkins.plugins:ionicons-api:${ionicons-api.version}:hpi</include>
                   <include>io.jenkins.plugins:jakarta-activation-api:${jakarta-activation-api.version}:hpi</include>
                   <include>io.jenkins.plugins:jakarta-mail-api:${jakarta-mail-api.version}:hpi</include>
+                  <include>io.jenkins.plugins:jakarta-xml-bind-api:${jakarta-xml-bind-api.version}:hpi</include>
                   <include>io.jenkins.plugins:jaxb:${jaxb.version}:hpi</include>
                   <include>io.jenkins.plugins:joda-time-api:${joda-time-api.version}:hpi</include>			    
                   <include>io.jenkins.plugins:jquery3-api:${jquery3-api.version}:hpi</include>
@@ -364,6 +366,10 @@
                 <softlinkSource>
                   <destination>jakarta-mail-api-${jakarta-mail-api.version}.jpi</destination>
                   <location>/usr/share/jenkins/jakarta-mail-api-${jakarta-mail-api.version}.hpi</location>
+                </softlinkSource>
+                <softlinkSource>
+                  <destination>jakarta-xml-bind-api-${jakarta-xml-bind-api.version}.jpi</destination>
+                  <location>/usr/share/jenkins/jakarta-xml-bind-api-${jakarta-xml-bind-api.version}.hpi</location>
                 </softlinkSource>
                 <softlinkSource>
                   <destination>junit-${junit.version}.jpi</destination>
@@ -671,6 +677,12 @@
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>jakarta-mail-api</artifactId>
       <version>${jakarta-mail-api.version}</version>
+      <type>hpi</type>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>jakarta-xml-bind-api</artifactId>
+      <version>${jakarta-xml-bind-api.version}</version>
       <type>hpi</type>
     </dependency>
     <dependency>
