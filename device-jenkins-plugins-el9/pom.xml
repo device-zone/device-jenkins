@@ -18,58 +18,58 @@
     <device.httpd.user>apache</device.httpd.user>
     <antisamy-markup-formatter.version>173.v680e3a_b_69ff3</antisamy-markup-formatter.version>
     <apache-httpcomponents-client-4-api.version>4.5.14-304.v93e940d17b_e8</apache-httpcomponents-client-4-api.version>
-    <asm-api.version>9.8-172.vb_3d59c0efd0f</asm-api.version>
-    <bootstrap5-api.version>5.3.7-868.vfcd040708da_2</bootstrap5-api.version>
-    <bouncycastle-api.version>2.30.1.81-268.vc5c4e0726360</bouncycastle-api.version>
-    <branch-api.version>2.1252.va_9805f23b_c11</branch-api.version>
+    <asm-api.version>9.9-185.va_6c6b_3348b_c3</asm-api.version>
+    <bootstrap5-api.version>5.3.8-895.v4d0d8e47fea_d</bootstrap5-api.version>
+    <bouncycastle-api.version>2.30.1.82-277.v70ca_0b_877184</bouncycastle-api.version>
+    <branch-api.version>2.1255.v2f5fe203584a_</branch-api.version>
     <caffeine-api.version>3.2.2-185.v70346b_dd9cc2</caffeine-api.version>
     <checks-api.version>391.vcf9d2435b_607</checks-api.version>
     <cloudbees-folder.version>6.1077.vd1f23ee0cf01</cloudbees-folder.version>
-    <commons-lang3-api.version>3.18.0-101.v5a_3a_39cc1a_9f</commons-lang3-api.version>
+    <commons-lang3-api.version>3.19.0-104.v12125f33a_255</commons-lang3-api.version>
     <commons-text-api.version>1.14.0-197.ve5e27769ccee</commons-text-api.version>
-    <configuration-as-code.version>1991.v29b_e219eb_a_51</configuration-as-code.version>
+    <configuration-as-code.version>2006.v001a_2ca_6b_574</configuration-as-code.version>
     <credentials-binding.version>707.v336047874b_70</credentials-binding.version>
-    <credentials.version>1446.vf787b_a_b_ec7b_f</credentials.version>
+    <credentials.version>1447.v4cb_b_539b_5321</credentials.version>
     <display-url-api.version>2.218.vec6745e0b_008</display-url-api.version>
-    <durable-task.version>601.vcb_34272997c0</durable-task.version>
-    <echarts-api.version>6.0.0-1148.v90ca_86964d7c</echarts-api.version>
+    <durable-task.version>605.v9a_b_9040c9970</durable-task.version>
+    <echarts-api.version>6.0.0-1165.vd1283a_3e37d4</echarts-api.version>
     <eddsa-api.version>0.3.0.1-19.vc432d923e5ee</eddsa-api.version>
-    <embeddable-build-status.version>624.v37a_47409953e</embeddable-build-status.version>
-    <font-awesome-api.version>7.0.0-853.vf5ef02ef6fb_c</font-awesome-api.version>
-    <git.version>5.7.1-rc5477.b_92efdec2b_8e</git.version>
-    <git-client.version>6.4.0-rc3802.5567a_fe642eb_</git-client.version>
-    <gson-api.version>2.13.1-162.vf1171ed9c75f</gson-api.version>
+    <embeddable-build-status.version>627.v0249270b_488e</embeddable-build-status.version>
+    <font-awesome-api.version>7.1.0-882.v1dfb_771e3278</font-awesome-api.version>
+    <git.version>5.8.0</git.version>
+    <git-client.version>6.4.0</git-client.version>
+    <gson-api.version>2.13.2-173.va_a_092315913c</gson-api.version>
     <ionicons-api.version>94.vcc3065403257</ionicons-api.version>
-    <jackson2-api.version>2.20.0-417.va_5311a_823a_b_8</jackson2-api.version>
+    <jackson2-api.version>2.20.0-420.v8a_08b_d57ca_05</jackson2-api.version>
     <jakarta-activation-api.version>2.1.3-3-rc109.579827e3b_a_c8</jakarta-activation-api.version>
     <jakarta-mail-api.version>2.1.3-4-rc136.75d17d680fde</jakarta-mail-api.version>
     <jakarta-xml-bind-api.version>4.0.5-3.v3d5b_a_73965b_9</jakarta-xml-bind-api.version>
     <jaxb.version>2.3.9-138.vfa_83c9fa_8d99</jaxb.version>
     <joda-time-api.version>2.14.0-154.v78fcda_744c7f</joda-time-api.version>
-    <jquery3-api.version>3.7.1-602.va_d9e343a_cb_93</jquery3-api.version>
+    <jquery3-api.version>3.7.1-619.vdb_10e002501a_</jquery3-api.version>
     <json-api.version>20250517-173.v596efb_962a_31</json-api.version>
     <json-path-api.version>2.9.0-190.veefca_05d5477</json-path-api.version>
     <junit.version>1414.v038b_6d71160a_</junit.version>
     <jwtauth.version>0.3.0</jwtauth.version>
     <mailer.version>523.vef86a_b_33da_86</mailer.version>
     <mapdb-api.version>1.0.9-46.vdd9d87178c87</mapdb-api.version>
-    <metrics.version>4.2.36-485.vea_fee1324d4b_</metrics.version>
+    <metrics.version>4.2.37-489.vb_6db_69b_ce753</metrics.version>
     <mina-sshd-api.version>2.16.0-168.v8fec445cd22f</mina-sshd-api.version>
     <msbuild.version>1.37</msbuild.version>
     <pipeline-build-step.version>572.v2067b_5e824a_3</pipeline-build-step.version>
     <pipeline-graph-analysis.version>245.v88f03631a_b_21</pipeline-graph-analysis.version>
-    <pipeline-graph-view.version>640.v60635f3b_3908</pipeline-graph-view.version>
+    <pipeline-graph-view.version>661.v6003f4542123</pipeline-graph-view.version>
     <pipeline-groovy-lib.version>844.v74ea_3847feff</pipeline-groovy-lib.version>
     <pipeline-input-step.version>535.vdd0645ccc1c9</pipeline-input-step.version>
-    <pipeline-model-api.version>2.2267.vcc9a_1a_0d4da_2</pipeline-model-api.version>
-    <pipeline-model-definition.version>2.2267.vcc9a_1a_0d4da_2</pipeline-model-definition.version>
-    <pipeline-model-extensions.version>2.2267.vcc9a_1a_0d4da_2</pipeline-model-extensions.version>
+    <pipeline-model-api.version>2.2273.v643f36ed9e94</pipeline-model-api.version>
+    <pipeline-model-definition.version>2.2273.v643f36ed9e94</pipeline-model-definition.version>
+    <pipeline-model-extensions.version>2.2273.v643f36ed9e94</pipeline-model-extensions.version>
     <pipeline-stage-step.version>324.vf29c7a_e5d7b_f</pipeline-stage-step.version>
-    <pipeline-stage-tags-metadata.version>2.2267.vcc9a_1a_0d4da_2</pipeline-stage-tags-metadata.version>
+    <pipeline-stage-tags-metadata.version>2.2273.v643f36ed9e94</pipeline-stage-tags-metadata.version>
     <plain-credentials.version>201.v9b_8fd821920d</plain-credentials.version>
-    <plugin-util-api.version>6.1172.v6807cfc7f547</plugin-util-api.version>
-    <prism-api.version>1.30.0-613.vf3125b_7a_4764</prism-api.version>
-    <scm-api.version>712.v7f2b_d0b_e0f97</scm-api.version>
+    <plugin-util-api.version>6.1192.v30fe6e2837ff</plugin-util-api.version>
+    <prism-api.version>1.30.0-630.va_e19d17f83b_0</prism-api.version>
+    <scm-api.version>712.v8846fdd68c88</scm-api.version>
     <script-security.version>1381.v483eb_7988b_3d</script-security.version>
     <snakeyaml-api.version>2.5-139.v9d6630031552</snakeyaml-api.version>
     <ssh-agent.version>386.v36cc0c7582f0</ssh-agent.version>
@@ -82,14 +82,14 @@
     <trilead-api.version>2.264.v786f6f31710e</trilead-api.version>
     <variant.version>72.ve1997d854b_b_7</variant.version>
     <workflow-api.version>1411.vd93a_e64a_f374</workflow-api.version>
-    <workflow-basic-steps.version>1093.v211ede589001</workflow-basic-steps.version>
+    <workflow-basic-steps.version>1098.v808b_fd7f8cf4</workflow-basic-steps.version>
     <workflow-cps.version>4236.v3cb_7ea_578c1f</workflow-cps.version>
-    <workflow-durable-task-step.version>1460.v4999c0343d02</workflow-durable-task-step.version>
-    <workflow-job.version>1547.vb_eeb_c7f31f22</workflow-job.version>
-    <workflow-multibranch.version>816.v7a_694b_826a_5d</workflow-multibranch.version>
-    <workflow-scm-step.version>441.vf65701d6e417</workflow-scm-step.version>
-    <workflow-step-api.version>708.v2947ea_e2966b_</workflow-step-api.version>
-    <workflow-support.version>980.ve898b_2765ec9</workflow-support.version>
+    <workflow-durable-task-step.version>1464.v2d3f5c68f84c</workflow-durable-task-step.version>
+    <workflow-job.version>1551.v7320b_88b_d5e6</workflow-job.version>
+    <workflow-multibranch.version>821.vc3b_4ea_780798</workflow-multibranch.version>
+    <workflow-scm-step.version>452.vdf1ca_c8d3a_87</workflow-scm-step.version>
+    <workflow-step-api.version>710.v3e456cc85233</workflow-step-api.version>
+    <workflow-support.version>1004.veee3a_d67cdb_9</workflow-support.version>
     <xcode.version>2.0.17-565.v1c48051d46ef</xcode.version>
   </properties>
 
