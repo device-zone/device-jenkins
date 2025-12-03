@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#
+# Fresh device configration
+# -------------------------
+
+set -e
+umask 0022
+
+
+systemd-notify --ready
+
+
+rm -rf /var/lib/jenkins/device
+install -o root -g jenkins -m 0750 -d /var/lib/jenkins/device
+
+

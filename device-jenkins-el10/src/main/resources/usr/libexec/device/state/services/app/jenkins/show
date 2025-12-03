@@ -6,7 +6,7 @@ umask 0002
 OPTIONS="--show - \
 	 --polar disabled \
          --polar allow-anonymous \
-         --default all --select-base /usr/share/device/services/app/jenkins/protocol.txt --select protocol \
+         --default all --select-base /usr/share/device/state/services/app/jenkins/protocol.txt --select protocol \
          --relation-base /etc/device/services/www/virtualhost --relation-name name --relation-suffix .txt --relation virtualhost \
          --relation-base /etc/device/services/www/auth --relation-name name --relation-suffix .txt --relation auth \
          --required \

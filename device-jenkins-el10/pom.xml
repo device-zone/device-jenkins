@@ -107,32 +107,23 @@
               </sources>
             </mapping>
             <mapping>
-              <directory>/usr/libexec/device-autodiscovery</directory>
-              <directoryIncluded>false</directoryIncluded>
-              <filemode>755</filemode>
-              <username>root</username>
-              <groupname>root</groupname>
-              <sources>
-                <source>
-                  <location>target/classes/usr/libexec/device-jenkins-autodiscovery</location>
-                  <destination>jenkins</destination>
-                </source>
-              </sources>
-            </mapping>
-            <mapping>
-              <directory>/usr/libexec/device-autodiscovery/jenkins.d</directory>
+              <directory>/usr/libexec/device/autodiscovery/jenkins.d</directory>
               <directoryIncluded>true</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
               <groupname>root</groupname>
             </mapping>
             <mapping>
-              <directory>/usr/libexec/device-autodiscovery/jenkins.d</directory>
+              <directory>/usr/libexec/device/autodiscovery/jenkins.d</directory>
               <directoryIncluded>false</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
               <groupname>root</groupname>
               <sources>
+                <source>
+                  <location>target/classes/usr/libexec/device-jenkins-autodiscovery-reset</location>
+                  <destination>00-reset</destination>
+                </source>
                 <source>
                   <location>target/classes/usr/libexec/device-jenkins-autodiscovery-sysconfig</location>
                   <destination>10-sysconfig</destination>
@@ -152,7 +143,7 @@
               </sources>
             </mapping>
             <mapping>
-              <directory>/usr/libexec/device-autodiscovery/httpd-virtualhost.d</directory>
+              <directory>/usr/libexec/device/autodiscovery/httpd-virtualhost.d</directory>
               <directoryIncluded>false</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
@@ -165,7 +156,7 @@
               </sources>
             </mapping>
             <mapping>
-              <directory>/usr/libexec/device-status/httpd-virtualhost.d</directory>
+              <directory>/usr/libexec/device/status/httpd-virtualhost.d</directory>
               <directoryIncluded>false</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
@@ -198,42 +189,42 @@
               <groupname>device</groupname>
             </mapping>
             <mapping>
-              <directory>/usr/libexec/device/services/app/jenkins</directory>
+              <directory>/usr/libexec/device/state/services/app/jenkins</directory>
               <directoryIncluded>true</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
               <groupname>root</groupname>
             </mapping>
             <mapping>
-              <directory>/usr/libexec/device/services/app/jenkins</directory>
+              <directory>/usr/libexec/device/state/services/app/jenkins</directory>
               <directoryIncluded>false</directoryIncluded>
               <filemode>755</filemode>
               <username>root</username>
               <groupname>root</groupname>
               <sources>
                 <source>
-                  <location>target/classes/usr/libexec/device/services/app/jenkins/enable</location>
+                  <location>target/classes/usr/libexec/device/state/services/app/jenkins/enable</location>
                 </source>
                 <source>
-                  <location>target/classes/usr/libexec/device/services/app/jenkins/disable</location>
+                  <location>target/classes/usr/libexec/device/state/services/app/jenkins/disable</location>
                 </source>
                 <source>
-                  <location>target/classes/usr/libexec/device/services/app/jenkins/set</location>
+                  <location>target/classes/usr/libexec/device/state/services/app/jenkins/set</location>
                 </source>
                 <source>
-                  <location>target/classes/usr/libexec/device/services/app/jenkins/show</location>
+                  <location>target/classes/usr/libexec/device/state/services/app/jenkins/show</location>
                 </source>
               </sources>
             </mapping>
             <mapping>
-              <directory>/usr/share/device/services/app/jenkins</directory>
+              <directory>/usr/share/device/state/services/app/jenkins</directory>
               <directoryIncluded>false</directoryIncluded>
               <filemode>644</filemode>
               <username>root</username>
               <groupname>root</groupname>
               <sources>
                 <source>
-                  <location>target/classes/usr/share/device/services/app/jenkins/protocol.txt</location>
+                  <location>target/classes/usr/share/device/state/services/app/jenkins/protocol.txt</location>
                 </source>
               </sources>
             </mapping>
@@ -252,7 +243,7 @@
           </preremoveScriptlet>
           <requires>
             <require>device-jenkins-plugins</require>
-            <require>java-21-openjdk</require>
+            <require>java-25-openjdk</require>
             <require>jenkins</require>
             <require>device</require>
             <require>device-httpd-bearer</require>

@@ -8,9 +8,10 @@ ReloadPropagatedFrom=jenkins.service
 Before=jenkins.service
 
 [Service]
-Type=oneshot
-ExecStart=/bin/bash /usr/libexec/device-autodiscovery/jenkins
-ExecReload=/bin/bash /usr/libexec/device-autodiscovery/jenkins
+Type=notify
+ExecStart=/usr/bin/flock -s /etc/device/service/app/jenkins/ /usr/bin/sequence -s daemon.info -b /usr/libexec device/autodiscovery/jenkins.d start
+ExecReload=/usr/bin/flock -s /etc/device/service/app/jenkins/ /usr/bin/sequence -s daemon.info -b /usr/libexec device/autodiscovery/jenkins.d reload
+ExecStop=/usr/bin/flock -s /etc/device/service/app/jenkins/ /usr/bin/sequence -s daemon.info -b /usr/libexec device/autodiscovery/jenkins.d stop
 RemainAfterExit=on
 
 [Install]

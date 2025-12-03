@@ -1,8 +1,12 @@
-#!/bin/bash
-  
+#!/bin/sh
+
 #
 # Skip installation screen
 # ------------------------
+
+set -e
+umask 0022
+
 
 logger -t "${0}" "Notice: Marking jenkins installation as complete..."
 
