@@ -15,7 +15,7 @@ if [ "$1" == "--" ]; then
 
   /usr/libexec/device-set ${OPTIONS} "$@"
 
-  if test -f "disabled.bin"; then
+  if test -f "disabled.polar"; then
     /usr/bin/sudo /usr/bin/systemctl try-reload-or-restart httpd-autodiscovery.service
     /usr/bin/sudo /usr/bin/systemctl --quiet disable jenkins.service
     if systemctl is-active --quiet jenkins-autodiscovery.service; then

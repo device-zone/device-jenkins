@@ -7,10 +7,10 @@ if [ "$1" == "--" ]; then
 
   /usr/bin/sudo /usr/bin/systemctl --quiet disable jenkins.service
 
-  if test -f "disabled.bin"; then
+  if test -f "disabled.polar"; then
     echo "jenkins is already disabled."
   else
-    touch "disabled.bin"
+    touch "disabled.polar"
     if systemctl is-active --quiet jenkins-autodiscovery.service; then
       /usr/bin/sudo /usr/bin/systemctl stop jenkins.service
     else

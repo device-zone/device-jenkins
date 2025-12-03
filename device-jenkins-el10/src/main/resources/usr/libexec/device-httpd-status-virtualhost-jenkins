@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ $# -eq 4 ]; then
 
@@ -62,7 +62,7 @@ if [ $# -eq 4 ]; then
     echo "      no-auth: open"
   fi
 
-  if test -f "$line/disabled.bin"; then
+  if test -f "$line/disabled.polar"; then
     echo "      jenkins: disabled"
   else
     echo -n "      jenkins: "

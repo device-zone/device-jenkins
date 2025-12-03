@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ $# -eq 3 ]; then
 
@@ -63,7 +63,7 @@ if [ $# -eq 3 ]; then
   fi
 
   allow_anonymous=""
-  if test -f "$line/allow-anonymous.bin"; then
+  if test -f "$line/allow-anonymous.polar"; then
     allow_anonymous="true"
   fi
 
