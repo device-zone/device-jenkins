@@ -245,6 +245,7 @@
             <require>device-jenkins-plugins</require>
             <require>java-25-openjdk</require>
             <require>jenkins</require>
+            <require>sequence</require>
             <require>device</require>
             <require>device-httpd-bearer</require>
             <require>device-httpd-selinux</require>
